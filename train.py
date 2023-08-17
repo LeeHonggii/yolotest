@@ -6,6 +6,7 @@ print(torch.cuda.is_available())
 print('===========================')
 print(ultralytics.checks())
 
+#수정
 
 if __name__ == '__main__':
     model = YOLO('yolov8n.pt')
